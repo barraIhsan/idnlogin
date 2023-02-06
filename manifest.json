@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "IDN Login",
+	"version": "1.0",
+
+	"description": "Easily login to IDN Boarding School Captive Portal.",
+
+	"icons": {
+		"48": "icons/idn-48.png"
+	},
+
+	"browser_action": {
+		"default_icon": "icons/idn-48.png",
+		"default_title": "IDN Login",
+		"default_popup": "popup/login.html"
+	},
+
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "idnlogin@barraIhsan.github.io"
+		}
+	}
+}
